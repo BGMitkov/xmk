@@ -11,9 +11,7 @@
 			<xs:element name="location" type="xs:string" />
 			<xs:element name="typeOfwall" type="WallType" />
 			<xs:element name="fauna" type="faunaType" />
-            <xs:element name="capacity" type="xs:decimal"/>
-            <xs:element name="surface" type="xs:decimal"/>
-            <xs:element name="altitude" type="xs:decimal"/>
+
             
 		</xs:sequence>
 		<xs:attribute name="name" type="xs:string" />
