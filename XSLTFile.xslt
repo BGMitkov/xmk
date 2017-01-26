@@ -56,12 +56,7 @@ extension-element-prefixes="exsl">
                 <th>
                  Water Volume
                 </th>
-                   <th>
-                Wall height
-                </th>
-                   <th>
-                Wall length
-                </th>
+              
                 
               </tr>
                 
@@ -82,23 +77,42 @@ extension-element-prefixes="exsl">
            
                 <tr>
                   <td>
-                    <xsl:value-of select="@name"/>
+                    <xsl:value-of select="@Name"/>
                   </td>
                   <td>
-                    <xsl:value-of select="@seaLevel"/>
+                    <xsl:value-of select="@Location"/>
                   </td>
                   <td>
-                  <xsl:value-of select="@area"/>
+                  <xsl:value-of select="@NearestCity"/>
                   </td>
-                  <td>
+                    <td>
+                   <xsl:value-of select="@Source"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Lenght"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Depth"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Width"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@SeaLevel"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Area"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@YearBuildStarted"/>
+                  </td>
+                     <td>
+                   <xsl:value-of select="@YearBuildFinished"/>
+                  </td>
+                     <td>
                    <xsl:value-of select="@waterVolume"/>
                   </td>
-                    <td>
-                   <xsl:value-of select="$wallHeight"/>
-                  </td>
-                    <td>
-                   <xsl:value-of select="$wallLeigth"/>
-                  </td>
+                    
                 </tr>
               </xsl:for-each>
             </tbody> 
