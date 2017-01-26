@@ -21,24 +21,51 @@ extension-element-prefixes="exsl">
             <thead>
               <tr class="info">
                 <th>
-                  name
+                    Name
                 </th>
                 <th>
-                  sealevel
+                  Location
                 </th>
                 <th>
-                  area (km2)
+                 Nearest City
                 </th>
                 <th>
-                  water volume (mln m3)
+                 Source
+                </th>
+                   <th>
+                  Lenght
+                </th>
+                   <th>
+                 Depth
+                </th>
+                   <th>
+                 Width
+                </th>
+                   <th>
+                  SeaLevel
+                </th>
+                   <th>
+                  Area
                 </th>
                   <th>
-                  Wall height
+                  YearBuildStarted
                 </th>
                   <th>
-                  Wall length
+                 YearBuildFinished
                 </th>
+                <th>
+                 Water Volume
+                </th>
+                   <th>
+                Wall height
+                </th>
+                   <th>
+                Wall length
+                </th>
+                
               </tr>
+                
+                
             </thead>
             
                        <tbody>
