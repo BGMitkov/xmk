@@ -5,57 +5,31 @@
 						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 						xsi:schemaLocation="http://www.w3schools.com/dam dam.xsd">
     <Dams>
-			<Dam DamId="1" Name="Александър Стамболийски" Location="Област Габрово" NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="190" Area="11,4" YearBuildStarted="" YearBuildFinished="" WaterVolume="205" GroundBase="" WallId="1"/>
-			<Dam DamId="2" Name="Batak" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1107" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="310" GroundBase="" WallId="2"/>
-			<Dam DamId="3" Name="Belmeken" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1923" Area="4.5" YearBuildStarted="" YearBuildFinished="" WaterVolume="144" GroundBase="" WallId="3"/>
-			<Dam DamId="4" Name="Vucha" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="540" Area="4.9" YearBuildStarted="" YearBuildFinished="" WaterVolume="226" GroundBase="" WallId="4"/>
-			<Dam DamId="5" Name="Golqm Beglik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1528" Area="4.1" YearBuildStarted="" YearBuildFinished="" WaterVolume="62" GroundBase="" WallId="5"/>
-			<Dam DamId="6" Name="Gorni Dubnik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="168" Area="11" YearBuildStarted="" YearBuildFinished="" WaterVolume="135" GroundBase="" WallId="6"/>
-			<Dam DamId="7" Name="Dospat" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1200" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="449" GroundBase="" WallId="7"/>
-			<Dam DamId="8" Name="Jrebchevo" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="269" Area="22.4" YearBuildStarted="" YearBuildFinished="" WaterVolume="400" GroundBase="" WallId="8"/>
-			<Dam DamId="9" Name="Ivailovgrad" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="120" Area="15" YearBuildStarted="" YearBuildFinished="" WaterVolume="188" GroundBase="" WallId="9"/>
-			<Dam DamId="10" Name="Iskar" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="817" Area="30" YearBuildStarted="" YearBuildFinished="" WaterVolume="673" GroundBase="" WallId="10"/>
-			<Dam DamId="11" Name="Jovkovtsi" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="365" Area="25.6" YearBuildStarted="" YearBuildFinished="" WaterVolume="92" GroundBase="" WallId="11"/>
-			<Dam DamId="12" Name="Kamchia" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="260" Area="9.6" YearBuildStarted="" YearBuildFinished="" WaterVolume="233" GroundBase="" WallId="12"/>
-			<Dam DamId="13" Name="Koprinka" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="400" Area="11.2" YearBuildStarted="" YearBuildFinished="" WaterVolume="140" GroundBase="" WallId="13"/>
-			<Dam DamId="14" Name="Kurdjali" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="331" Area="16" YearBuildStarted="" YearBuildFinished="" WaterVolume="539" GroundBase="" WallId="14"/>
-			<Dam DamId="15" Name="Ovcharitsa" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="140" Area="6.3" YearBuildStarted="" YearBuildFinished="" WaterVolume="45" GroundBase="" WallId="15"/>
-			<Dam DamId="16" Name="Ogosta" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="186" Area="23.6" YearBuildStarted="" YearBuildFinished="" WaterVolume="506" GroundBase="" WallId="16"/>
-			<Dam DamId="17" Name="Piasachnik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="290" Area="9.1" YearBuildStarted="" YearBuildFinished="" WaterVolume="103" GroundBase="" WallId="17"/>
-			<Dam DamId="18" Name="Studen kladenets" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="227" Area="27.8" YearBuildStarted="" YearBuildFinished="" WaterVolume="489" GroundBase="" WallId="18"/>
-			<Dam DamId="19" Name="Ticha" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="185" Area="18.7" YearBuildStarted="" YearBuildFinished="" WaterVolume="311" GroundBase="" WallId="19"/>
-			<Dam DamId="20" Name="Topolnitsa" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="370" Area="5.7" YearBuildStarted="" YearBuildFinished="" WaterVolume="137" GroundBase="" WallId="20"/>
-			<Dam DamId="21" Name="Trakiets" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="250" Area="8.2" YearBuildStarted="" YearBuildFinished="" WaterVolume="114" GroundBase="" WallId="21"/>
-			<Dam DamId="22" Name="Tsenkov kamak" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="668" Area="3.4" YearBuildStarted="" YearBuildFinished="" WaterVolume="111" GroundBase="" WallId="22"/>
-			<Dam DamId="23" Name="Tsonevo" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="185" Area="23.9" YearBuildStarted="" YearBuildFinished="" WaterVolume="330" GroundBase="" WallId="23"/>
-			<Dam DamId="24" Name="Shiroka poliana" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1500" Area="4" YearBuildStarted="" YearBuildFinished="" WaterVolume="24" GroundBase="" WallId="24"/>
+			<Dam DamId="1" Name="Александър Стамболийски" Location="Област Габрово" NearestCity="Сухиндол" Source="Росица" Lenght="18" Area="11,4" YearBuildStarted="1940" YearBuildFinished="1954" WaterVolume="205 500 000" >
+				<Wall Height="66" Length="300" GroundBase="" />
+			</Dam>
+			<Dam DamId="2" Name="Batak" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1107" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="310" >
+				<Wall Height="35" Length="237" GroundBase="" />
+			</Dam>
+			<Dam DamId="3" Name="Belmeken" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1923" Area="4.5" YearBuildStarted="" YearBuildFinished="" WaterVolume="144" >
+				<Wall Height="24" Length="210" GroundBase="" />
+			</Dam>
+			<Dam DamId="4" Name="Vucha" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="540" Area="4.9" YearBuildStarted="" YearBuildFinished="" WaterVolume="226" >
+				<Wall Height="144" Length="420" GroundBase="" />
+			</Dam>
+			<Dam DamId="5" Name="Golqm Beglik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1528" Area="4.1" YearBuildStarted="" YearBuildFinished="" WaterVolume="62" >
+				<Wall Height="46.5" Length="191" GroundBase="" />
+			</Dam>
+			<Dam DamId="6" Name="Gorni Dubnik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="168" Area="11" YearBuildStarted="" YearBuildFinished="" WaterVolume="135" >
+				<Wall Height="35" Length="180" GroundBase="" />
+			</Dam>
+			<Dam DamId="7" Name="Dospat" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1200" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="449" >
+				<Wall Height="60.5" Length="230" GroundBase="" />
+			</Dam>
+			<Dam DamId="8" Name="Jrebchevo" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="269" Area="22.4" YearBuildStarted="" YearBuildFinished="" WaterVolume="400" >
+				<Wall Height="50" Length="60" GroundBase="" />
+			</Dam>
 	</Dams>
-	<Walls>
-    <Wall Height="66" Length="300" GroundBase="" WallId="1"/> 
-    <Wall Height="35" Length="237" GroundBase="" WallId="2"/>
-    <Wall Height="24" Length="210" GroundBase="" WallId="3"/>
-    <Wall Height="144" Length="420" GroundBase="" WallId="4"/>
-    <Wall Height="46.5" Length="191" GroundBase="" WallId="5"/>
-    <Wall Height="35" Length="180" GroundBase="" WallId="6"/>
-    <Wall Height="60.5" Length="230" GroundBase="" WallId="7"/>
-    <Wall Height="50" Length="60" GroundBase="" WallId="8"/>
-    <Wall Height="71" Length="250" GroundBase="" WallId="9"/>
-    <Wall Height="76" Length="204" GroundBase="" WallId="10"/>
-    <Wall Height="66" Length="256" GroundBase="" WallId="11"/>
-    <Wall Height="25" Length="165" GroundBase="" WallId="12"/>
-    <Wall Height="44" Length="315" GroundBase="" WallId="13"/>
-    <Wall Height="103.5" Length="403" GroundBase="" WallId="14"/>
-    <Wall Height="22" Length="1480" GroundBase="" WallId="15"/>
-    <Wall Height="42" Length="1000" GroundBase="" WallId="16"/>
-    <Wall Height="37" Length="271" GroundBase="" WallId="17"/>
-    <Wall Height="67.5" Length="338" GroundBase="" WallId="18"/>
-    <Wall Height="55.5" Length="635" GroundBase="" WallId="19"/>
-    <Wall Height="78" Length="232" GroundBase="" WallId="20"/>
-    <Wall Height="67" Length="321" GroundBase="" WallId="21"/>
-    <Wall Height="130.5" Length="468" GroundBase="" WallId="22"/>
-    <Wall Height="39" Length="890" GroundBase="" WallId="23"/>
-    <Wall Height="35" Length="139" GroundBase="" WallId="24"/>
-	</Walls>
 </DamCatalog>
 
 

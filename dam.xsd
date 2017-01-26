@@ -7,7 +7,6 @@
 	<xs:complexType name="DamCatalogType">
 		<xs:sequence>
 			<xs:element name="Dams" type="tns:DamsType"/>
-			<xs:element name="Walls" type="tns:WallsType"/>
 		</xs:sequence>
 	</xs:complexType>
 
@@ -36,12 +35,6 @@
 		<xs:attribute name="YearBuildStarted" type="xs:gYear" />
 		<xs:attribute name="YearBuildFinished" type="xs:gYear" />
 		<xs:attribute name="WallId" type="xs:positiveInteger" />
-	</xs:complexType>
-	
-	<xs:complexType name="WallsType">
-		<xs:sequence maxOccurs="unbounded" minOccurs="0">
-			<xs:element name="Wall" type="tns:WallType"/>
-		</xs:sequence>
 	</xs:complexType>
 	
 	<xs:complexType name="WallType">
