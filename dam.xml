@@ -3,30 +3,30 @@
 <?xml-stylesheet type='text/xsl' href='XSLTFile.xslt'?>
 <DamCatalog>
     <DAMS>
-<DAM DamID="1" name="Al. Stamboliiski" seaLevel="190" area="11,4" waterVolume="205"/>
-<DAM DamID="2" name="Batak" seaLevel="1107" area="22" waterVolume="310"/>
-<DAM DamID="3" name="Belmeken" seaLevel="1923" area="4.5" waterVolume="144"/>
-<DAM DamID="4" name="Vucha" seaLevel="540" area="4.9" waterVolume="226"/>
-<DAM DamID="5" name="Golqm Beglik" seaLevel="1528" area="4.1" waterVolume="62"/>
-<DAM DamID="6" name="Gorni Dubnik" seaLevel="168" area="11" waterVolume="135"/>
-<DAM DamID="7" name="Dospat" seaLevel="1200" area="22" waterVolume="449"/>
-<DAM DamID="8" name="Jrebchevo" seaLevel="269" area="22.4" waterVolume="400"/>
-<DAM DamID="9" name="Ivailovgrad" seaLevel="120" area="15" waterVolume="188"/>
-<DAM DamID="10" name="Iskar" seaLevel="817" area="30" waterVolume="673"/>
-<DAM DamID="11" name="Jovkovtsi" seaLevel="365" area="25.6" waterVolume="92"/>
-<DAM DamID="12" name="Kamchia" seaLevel="260" area="9.6" waterVolume="233"/>
-<DAM DamID="13" name="Koprinka" seaLevel="400" area="11.2" waterVolume="140"/>
-<DAM DamID="14" name="Kurdjali" seaLevel="331" area="16" waterVolume="539"/>
-<DAM DamID="15" name="Ovcharitsa" seaLevel="140" area="6.3" waterVolume="45"/>
-<DAM DamID="16" name="Ogosta" seaLevel="186" area="23.6" waterVolume="506"/>
-<DAM DamID="17" name="Piasachnik" seaLevel="290" area="9.1" waterVolume="103"/>
-<DAM DamID="18" name="Studen kladenets" seaLevel="227" area="27.8" waterVolume="489"/>
-<DAM DamID="19" name="Ticha" seaLevel="185" area="18.7" waterVolume="311"/>
-<DAM DamID="20" name="Topolnitsa" seaLevel="370" area="5.7" waterVolume="137"/>
-<DAM DamID="21" name="Trakiets" seaLevel="250" area="8.2" waterVolume="114"/>
-<DAM DamID="22" name="Tsenkov kamak" seaLevel="668" area="3.4" waterVolume="111"/>
-<DAM DamID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330"/>
-<DAM DamID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24"/>
+<DAM DamID="1" name="Al. Stamboliiski" seaLevel="190" area="11,4" waterVolume="205" wallID="1"/>
+<DAM DamID="2" name="Batak" seaLevel="1107" area="22" waterVolume="310" wallID="2"/>
+<DAM DamID="3" name="Belmeken" seaLevel="1923" area="4.5" waterVolume="144" wallID="3"/>
+<DAM DamID="4" name="Vucha" seaLevel="540" area="4.9" waterVolume="226" wallID="4"/>
+<DAM DamID="5" name="Golqm Beglik" seaLevel="1528" area="4.1" waterVolume="62" wallID="5"/>
+<DAM DamID="6" name="Gorni Dubnik" seaLevel="168" area="11" waterVolume="135" wallID="6"/>
+<DAM DamID="7" name="Dospat" seaLevel="1200" area="22" waterVolume="449" wallID="7"/>
+<DAM DamID="8" name="Jrebchevo" seaLevel="269" area="22.4" waterVolume="400" wallID="8"/>
+<DAM DamID="9" name="Ivailovgrad" seaLevel="120" area="15" waterVolume="188" wallID="9"/>
+<DAM DamID="10" name="Iskar" seaLevel="817" area="30" waterVolume="673" wallID="10"/>
+<DAM DamID="11" name="Jovkovtsi" seaLevel="365" area="25.6" waterVolume="92" wallID="11"/>
+<DAM DamID="12" name="Kamchia" seaLevel="260" area="9.6" waterVolume="233" wallID="12"/>
+<DAM DamID="13" name="Koprinka" seaLevel="400" area="11.2" waterVolume="140" wallID="13"/>
+<DAM DamID="14" name="Kurdjali" seaLevel="331" area="16" waterVolume="539" wallID="14"/>
+<DAM DamID="15" name="Ovcharitsa" seaLevel="140" area="6.3" waterVolume="45" wallID="15"/>
+<DAM DamID="16" name="Ogosta" seaLevel="186" area="23.6" waterVolume="506" wallID="16"/>
+<DAM DamID="17" name="Piasachnik" seaLevel="290" area="9.1" waterVolume="103" wallID="17"/>
+<DAM DamID="18" name="Studen kladenets" seaLevel="227" area="27.8" waterVolume="489" wallID="18"/>
+<DAM DamID="19" name="Ticha" seaLevel="185" area="18.7" waterVolume="311" wallID="19"/>
+<DAM DamID="20" name="Topolnitsa" seaLevel="370" area="5.7" waterVolume="137" wallID="20"/>
+<DAM DamID="21" name="Trakiets" seaLevel="250" area="8.2" waterVolume="114" wallID="21"/>
+<DAM DamID="22" name="Tsenkov kamak" seaLevel="668" area="3.4" waterVolume="111" wallID="22"/>
+<DAM DamID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330" wallID="23"/>
+<DAM DamID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24" wallID="24"/>
 </DAMS>
     
     
@@ -34,30 +34,30 @@
     
 <WALLS>
 
-    <WALL height="66" length="300" DamID="1"/> 
-    <WALL height="35" length="237" DamID="2"/>
-    <WALL height="24" length="210" DamID="3"/>
-    <WALL height="144" length="420" DamID="4"/>
-    <WALL height="46.5" length="191" DamID="5"/>
-    <WALL height="35" length="180" DamID="6"/>
-    <WALL height="60.5" length="230" DamID="7"/>
-    <WALL height="50" length="60" DamID="8"/>
-    <WALL height="71" length="250" DamID="9"/>
-    <WALL height="76" length="204" DamID="10"/>
-    <WALL height="66" length="256" DamID="11"/>
-    <WALL height="25" length="165" DamID="12"/>
-    <WALL height="44" length="315" DamID="13"/>
-    <WALL height="103.5" length="403" DamID="14"/>
-    <WALL height="22" length="1480" DamID="15"/>
-    <WALL height="42" length="1000" DamID="16"/>
-    <WALL height="37" length="271" DamID="17"/>
-    <WALL height="67.5" length="338" DamID="18"/>
-    <WALL height="55.5" length="635" DamID="19"/>
-    <WALL height="78" length="232" DamID="20"/>
-    <WALL height="67" length="321" DamID="21"/>
-    <WALL height="130.5" length="468" DamID="22"/>
-    <WALL height="39" length="890" DamID="23"/>
-    <WALL height="35" length="139" DamID="24"/>
+    <WALL height="66" length="300" wallID="1"/> 
+    <WALL height="35" length="237" wallID="2"/>
+    <WALL height="24" length="210" wallID="3"/>
+    <WALL height="144" length="420" wallID="4"/>
+    <WALL height="46.5" length="191" wallID="5"/>
+    <WALL height="35" length="180" wallID="6"/>
+    <WALL height="60.5" length="230" wallID="7"/>
+    <WALL height="50" length="60" wallID="8"/>
+    <WALL height="71" length="250" wallID="9"/>
+    <WALL height="76" length="204" wallID="10"/>
+    <WALL height="66" length="256" wallID="11"/>
+    <WALL height="25" length="165" wallID="12"/>
+    <WALL height="44" length="315" wallID="13"/>
+    <WALL height="103.5" length="403" wallID="14"/>
+    <WALL height="22" length="1480" wallID="15"/>
+    <WALL height="42" length="1000" wallID="16"/>
+    <WALL height="37" length="271" wallID="17"/>
+    <WALL height="67.5" length="338" wallID="18"/>
+    <WALL height="55.5" length="635" wallID="19"/>
+    <WALL height="78" length="232" wallID="20"/>
+    <WALL height="67" length="321" wallID="21"/>
+    <WALL height="130.5" length="468" wallID="22"/>
+    <WALL height="39" length="890" wallID="23"/>
+    <WALL height="35" length="139" wallID="24"/>
 
 </WALLS>
     

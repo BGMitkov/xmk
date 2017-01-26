@@ -27,18 +27,26 @@
                 <th>
                   water volume (mln m3)
                 </th>
+                  <th>
+                  Wall height
+                </th>
+                  <th>
+                  Wall length
+                </th>
               </tr>
             </thead>
             
                        <tbody>
        <xsl:for-each select="DamCatalog/DAMS/DAM">
+           <xsl:variable name="wallid" select="@wallID" />
            <!-- kliu4ive za stenata 
     <xsl:variable name="name" select="//Dam[@DamID=$DamId]/@name" />   
     <xsl:variable name="sealevel" select="//Dam[@DamID=$DamId]/@sealevel" />  
     <xsl:variable name="area" select="//Dam[@DamID=$DamId]/@area" />  
     <xsl:variable name="waterVolume" select="//Dam[@DamID=$DamId]/@waterVolume" />  -->
-                                
-        
+           <xsl:variable name="wallHeight" select="DamCatalog/WALLS/WALL[@WallID=$wallid]/@height" />          
+           <xsl:variable name="wallLeigth" select="DamCatalog/WALLS/WALL[@WallID=$wallid]/@length" />  
+           
                 <tr>
                   <td>
                     <xsl:value-of select="@name"/>
@@ -51,6 +59,12 @@
                   </td>
                   <td>
                    <xsl:value-of select="@waterVolume"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="$wallHeight"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="$wallLeigth"/>
                   </td>
                 </tr>
               </xsl:for-each>
