@@ -31,27 +31,20 @@
             </thead>
             
                        <tbody>
-       <xsl:for-each select="DamCatalog/Dam">
-            
-                           
-    <xsl:variable name="DamId" select="@DamID" />
+       <xsl:for-each select="DamCatalog/DAM">
            <!-- kliu4ive za stenata 
     <xsl:variable name="name" select="//Dam[@DamID=$DamId]/@name" />   
     <xsl:variable name="sealevel" select="//Dam[@DamID=$DamId]/@sealevel" />  
     <xsl:variable name="area" select="//Dam[@DamID=$DamId]/@area" />  
     <xsl:variable name="waterVolume" select="//Dam[@DamID=$DamId]/@waterVolume" />  -->
-                           
-                           
-                           
-                           
-                           
+                                
         
                 <tr>
                   <td>
                     <xsl:value-of select="@name"/>
                   </td>
                   <td>
-                    <xsl:value-of select="@sealevel"/>
+                    <xsl:value-of select="@seaLevel"/>
                   </td>
                   <td>
                   <xsl:value-of select="@area"/>
