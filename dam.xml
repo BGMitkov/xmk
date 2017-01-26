@@ -11,7 +11,7 @@
 		</Dam>
 		<Dam DamId="2" Name="Батак" Location="Област Пазарджик" NearestCity="Пазарджик" Source="река Мътница"
 			Lenght="2145" Depth="74" Width="742" SeaLevel="1107" Area="22"
-			YearBuildStarted="" YearBuildFinished="1959" WaterVolume="310">
+			YearBuildStarted="1952" YearBuildFinished="1959" WaterVolume="310">
 			<Wall Height="35" Length="237" GroundBase="" />
 		</Dam>
 		<Dam DamId="3" Name="Белмекен" Location="Област Пазарджик" NearestCity="Пазарджик" Source="Крива река"
