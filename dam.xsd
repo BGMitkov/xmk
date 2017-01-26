@@ -41,7 +41,6 @@
 		<xs:attribute name="Height" type="xs:positiveInteger"/>
 		<xs:attribute name="Lenght" type="xs:positiveInteger"/>
 		<xs:attribute name="GroundBase" type="xs:string" />
-		<xs:attribute name="WallId" type="xs:positiveInteger"/>
 	</xs:complexType>
 
 	<xs:complexType name="FaunaType">
