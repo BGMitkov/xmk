@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<DOM DomID="1" name="Al. Stamboliiski" seaLevel="190" area="11,4" waterVolume="205"/>
-<DOM DomID="2" name="Batak" seaLevel="1107" area="22" waterVolume="310"/>
-<DOM DomID="3" name="Belmeken" seaLevel="1923" area="4.5" waterVolume="144"/>
-<DOM DomID="4" name="Vucha" seaLevel="540" area="4.9" waterVolume="226"/>
-<DOM DomID="5" name="Golqm Beglik" seaLevel="1528" area="4.1" waterVolume="62"/>
-<DOM DomID="6" name="Gorni Dubnik" seaLevel="168" area="11" waterVolume="135"/>
-<DOM DomID="7" name="Dospat" seaLevel="1200" area="22" waterVolume="449"/>
-<DOM DomID="8" name="Jrebchevo" seaLevel="269" area="22.4" waterVolume="400"/>
-<DOM DomID="9" name="Ivailovgrad" seaLevel="120" area="15" waterVolume="188"/>
-<DOM DomID="10" name="Iskar" seaLevel="817" area="30" waterVolume="673"/>
-<DOM DomID="11" name="Jovkovtsi" seaLevel="365" area="25.6" waterVolume="92"/>
-<DOM DomID="12" name="Kamchia" seaLevel="260" area="9.6" waterVolume="233"/>
-<DOM DomID="13" name="Koprinka" seaLevel="400" area="11.2" waterVolume="140"/>
-<DOM DomID="14" name="Kurdjali" seaLevel="331" area="16" waterVolume="539"/>
-<DOM DomID="15" name="Ovcharitsa" seaLevel="140" area="6.3" waterVolume="45"/>
-<DOM DomID="16" name="Ogosta" seaLevel="186" area="23.6" waterVolume="506"/>
-<DOM DomID="17" name="Piasachnik" seaLevel="290" area="9.1" waterVolume="103"/>
-<DOM DomID="18" name="Studen kladenets" seaLevel="227" area="27.8" waterVolume="489"/>
-<DOM DomID="19" name="Ticha" seaLevel="185" area="18.7" waterVolume="311"/>
-<DOM DomID="20" name="Topolnitsa" seaLevel="370" area="5.7" waterVolume="137"/>
-<DOM DomID="21" name="Trakiets" seaLevel="250" area="8.2" waterVolume="114"/>
-<DOM DomID="22" name="Tsenkov kamak" seaLevel="668" area="3.4" waterVolume="111"/>
-<DOM DomID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330"/>
-<DOM DomID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24"/>
+<?xml-stylesheet type='text/xsl' href='XSLTFile.xslt'?>
+<DamCatalog>
+<DAM DamID="1" name="Al. Stamboliiski" seaLevel="190" area="11,4" waterVolume="205"/>
+<DAM DamID="2" name="Batak" seaLevel="1107" area="22" waterVolume="310"/>
+<DAM DamID="3" name="Belmeken" seaLevel="1923" area="4.5" waterVolume="144"/>
+<DAM DamID="4" name="Vucha" seaLevel="540" area="4.9" waterVolume="226"/>
+<DAM DamID="5" name="Golqm Beglik" seaLevel="1528" area="4.1" waterVolume="62"/>
+<DAM DamID="6" name="Gorni Dubnik" seaLevel="168" area="11" waterVolume="135"/>
+<DAM DamID="7" name="Dospat" seaLevel="1200" area="22" waterVolume="449"/>
+<DAM DamID="8" name="Jrebchevo" seaLevel="269" area="22.4" waterVolume="400"/>
+<DAM DamID="9" name="Ivailovgrad" seaLevel="120" area="15" waterVolume="188"/>
+<DAM DamID="10" name="Iskar" seaLevel="817" area="30" waterVolume="673"/>
+<DAM DamID="11" name="Jovkovtsi" seaLevel="365" area="25.6" waterVolume="92"/>
+<DAM DamID="12" name="Kamchia" seaLevel="260" area="9.6" waterVolume="233"/>
+<DAM DamID="13" name="Koprinka" seaLevel="400" area="11.2" waterVolume="140"/>
+<DAM DamID="14" name="Kurdjali" seaLevel="331" area="16" waterVolume="539"/>
+<DAM DamID="15" name="Ovcharitsa" seaLevel="140" area="6.3" waterVolume="45"/>
+<DAM DamID="16" name="Ogosta" seaLevel="186" area="23.6" waterVolume="506"/>
+<DAM DamID="17" name="Piasachnik" seaLevel="290" area="9.1" waterVolume="103"/>
+<DAM DamID="18" name="Studen kladenets" seaLevel="227" area="27.8" waterVolume="489"/>
+<DAM DamID="19" name="Ticha" seaLevel="185" area="18.7" waterVolume="311"/>
+<DAM DamID="20" name="Topolnitsa" seaLevel="370" area="5.7" waterVolume="137"/>
+<DAM DamID="21" name="Trakiets" seaLevel="250" area="8.2" waterVolume="114"/>
+<DAM DamID="22" name="Tsenkov kamak" seaLevel="668" area="3.4" waterVolume="111"/>
+<DAM DamID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330"/>
+<DAM DamID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24"/>
+</DamCatalog>
