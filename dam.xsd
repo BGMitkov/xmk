@@ -13,16 +13,16 @@
 
 	<xs:complexType name="DamsType">
 		<xs:sequence maxOccurs="unbounded" minOccurs="0">
-			<xs:element name="Dam" type="tns:DamType"></xs:element>
+			<xs:element name="Dam" type="tns:DamType"/>
 		</xs:sequence>
 	</xs:complexType>
 
 	<xs:complexType name="DamType">
 		<xs:sequence>
-			<xs:element name="Wall" type="tns:WallType"></xs:element>
-			<xs:element name="Fauna" type="tns:FaunaType"></xs:element>
+			<xs:element name="Wall" type="tns:WallType"/>
+			<xs:element name="Fauna" type="tns:FaunaType"/>
 		</xs:sequence>
-		
+		<xs:attribute name="DamId" type="xs:positiveInteger" use="required"/>		
 		<xs:attribute name="Location" type="xs:string"/>
 		<xs:attribute name="NearestCity" type="xs:string"/>
 		<xs:attribute name="Source" type="xs:string"/>
@@ -35,11 +35,12 @@
 		<xs:attribute name="WaterVolume" type="xs:positiveInteger" />
 		<xs:attribute name="YearBuildStarted" type="xs:gYear" />
 		<xs:attribute name="YearBuildFinished" type="xs:gYear" />
+		<xs:attribute name="WallId" type="xs:positiveInteger" />
 	</xs:complexType>
 	
-	<xs:complexType name="Walls">
+	<xs:complexType name="WallsType">
 		<xs:sequence maxOccurs="unbounded" minOccurs="0">
-			<xs:
+			<xs:element name="Wall" type="tns:WallType"/>
 		</xs:sequence>
 	</xs:complexType>
 	
@@ -47,13 +48,14 @@
 		<xs:attribute name="Height" type="xs:positiveInteger"/>
 		<xs:attribute name="Lenght" type="xs:positiveInteger"/>
 		<xs:attribute name="GroundBase" type="xs:string" />
+		<xs:attribute name="WallId" type="xs:positiveInteger"/>
 	</xs:complexType>
 
 	<xs:complexType name="FaunaType">
 		<xs:sequence maxOccurs="unbounded" minOccurs="0">
-			<xs:element name="Fish" type="xs:string"></xs:element>
+			<xs:element name="Fish" type="xs:string"/>
 		</xs:sequence>
 	</xs:complexType>
 
-	<xs:element name="DamCatalog" type="tns:DamCatalogType"></xs:element>
+	<xs:element name="DamCatalog" type="tns:DamCatalogType"/>
 </xs:schema>
