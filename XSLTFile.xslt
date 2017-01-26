@@ -4,7 +4,7 @@
 >
     <xsl:output method="html" indent="yes"/>
   
-    <xsl:template match="/DamCatalog">
+    <xsl:template match="/">
       <html>
         <head>
           <title>Dams in Bulgaria</title>
