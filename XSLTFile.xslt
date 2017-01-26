@@ -42,7 +42,8 @@ extension-element-prefixes="exsl">
             </thead>
             
                        <tbody>
-       <xsl:for-each select="DamCatalog/DAMS/DAM">
+       <xsl:for-each select="DamCatalog/Dams/Dam">
+           <xsl:sort select="@seaLevel"/>
            <xsl:variable name="wallid" select="@wallID" />
            <!-- kliu4ive za stenata 
     <xsl:variable name="name" select="//Dam[@DamID=$DamId]/@name" />   
