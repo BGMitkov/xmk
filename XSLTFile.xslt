@@ -110,7 +110,7 @@ extension-element-prefixes="exsl">
                    <xsl:value-of select="@YearBuildFinished"/>
                   </td>
                      <td>
-                   <xsl:value-of select="@waterVolume"/>
+                   <xsl:value-of select="@WaterVolume"/>
                   </td>
                     
                 </tr>
