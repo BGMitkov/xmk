@@ -2,6 +2,7 @@
 
 <?xml-stylesheet type='text/xsl' href='XSLTFile.xslt'?>
 <DamCatalog>
+    <DAMS>
 <DAM DamID="1" name="Al. Stamboliiski" seaLevel="190" area="11,4" waterVolume="205"/>
 <DAM DamID="2" name="Batak" seaLevel="1107" area="22" waterVolume="310"/>
 <DAM DamID="3" name="Belmeken" seaLevel="1923" area="4.5" waterVolume="144"/>
@@ -26,8 +27,11 @@
 <DAM DamID="22" name="Tsenkov kamak" seaLevel="668" area="3.4" waterVolume="111"/>
 <DAM DamID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330"/>
 <DAM DamID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24"/>
-</DamCatalog>
-
+</DAMS>
+    
+    
+    
+    
 <WALLS>
 
     <WALL height="66" length="300" DamID="1"/> 
@@ -56,6 +60,12 @@
     <WALL height="35" length="139" DamID="24"/>
 
 </WALLS>
+    
+    
+    
+    
+</DamCatalog>
+
 
 
 

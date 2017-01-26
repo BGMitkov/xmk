@@ -31,7 +31,7 @@
             </thead>
             
                        <tbody>
-       <xsl:for-each select="DamCatalog/DAM">
+       <xsl:for-each select="DamCatalog/DAMS/DAM">
            <!-- kliu4ive za stenata 
     <xsl:variable name="name" select="//Dam[@DamID=$DamId]/@name" />   
     <xsl:variable name="sealevel" select="//Dam[@DamID=$DamId]/@sealevel" />  
