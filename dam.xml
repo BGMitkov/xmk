@@ -27,3 +27,53 @@
 <DAM DamID="23" name="Tsonevo" seaLevel="185" area="23.9" waterVolume="330"/>
 <DAM DamID="24" name="Shiroka poliana" seaLevel="1500" area="4" waterVolume="24"/>
 </DamCatalog>
+
+<WALLS>
+
+    <WALL height="66" length="300" DamID="1"/> 
+    <WALL height="35" length="237" DamID="2"/>
+    <WALL height="24" length="210" DamID="3"/>
+    <WALL height="144" length="420" DamID="4"/>
+    <WALL height="46.5" length="191" DamID="5"/>
+    <WALL height="35" length="180" DamID="6"/>
+    <WALL height="60.5" length="230" DamID="7"/>
+    <WALL height="50" length="60" DamID="8"/>
+    <WALL height="71" length="250" DamID="9"/>
+    <WALL height="76" length="204" DamID="10"/>
+    <WALL height="66" length="256" DamID="11"/>
+    <WALL height="25" length="165" DamID="12"/>
+    <WALL height="44" length="315" DamID="13"/>
+    <WALL height="103.5" length="403" DamID="14"/>
+    <WALL height="22" length="1480" DamID="15"/>
+    <WALL height="42" length="1000" DamID="16"/>
+    <WALL height="37" length="271" DamID="17"/>
+    <WALL height="67.5" length="338" DamID="18"/>
+    <WALL height="55.5" length="635" DamID="19"/>
+    <WALL height="78" length="232" DamID="20"/>
+    <WALL height="67" length="321" DamID="21"/>
+    <WALL height="130.5" length="468" DamID="22"/>
+    <WALL height="39" length="890" DamID="23"/>
+    <WALL height="35" length="139" DamID="24"/>
+
+</WALLS>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
