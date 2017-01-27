@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="XSLTFile.xslt"?>
 
+
 <DamCatalog xmlns="http://www.w3schools.com/dam" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.w3schools.com/dam dam.xsd">
 	<Dams>
@@ -199,6 +200,9 @@
 		<Fauna name="Кефал" faunaId="19"/>
 		<Fauna name="Пъстърва" faunaId="20"/>
 	</Fauna>
+
+
+
 
 </DamCatalog>
 

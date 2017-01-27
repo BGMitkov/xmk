@@ -21,29 +21,51 @@ extension-element-prefixes="exsl">
             <thead>
               <tr class="info">
                 <th>
-                  name
+                    Name
                 </th>
                 <th>
-                  sealevel
+                  Location
                 </th>
                 <th>
-                  area (km2)
+                 Nearest City
                 </th>
                 <th>
-                  water volume (mln m3)
+                 Source
+                </th>
+                   <th>
+                  Lenght
+                </th>
+                   <th>
+                 Depth
+                </th>
+                   <th>
+                 Width
+                </th>
+                   <th>
+                  SeaLevel
+                </th>
+                   <th>
+                  Area
                 </th>
                   <th>
-                  Wall height
+                  YearBuildStarted
                 </th>
                   <th>
-                  Wall length
+                 YearBuildFinished
                 </th>
+                <th>
+                 Water Volume
+                </th>
+              
+                
               </tr>
+                
+                
             </thead>
             
                        <tbody>
        <xsl:for-each select="DamCatalog/Dams/Dam">
-           <xsl:sort select="@seaLevel"/>
+
            <xsl:variable name="wallid" select="@wallID" />
            <!-- kliu4ive za stenata 
     <xsl:variable name="name" select="//Dam[@DamID=$DamId]/@name" />   
@@ -55,23 +77,42 @@ extension-element-prefixes="exsl">
            
                 <tr>
                   <td>
-                    <xsl:value-of select="@name"/>
+                    <xsl:value-of select="@Name"/>
                   </td>
                   <td>
-                    <xsl:value-of select="@seaLevel"/>
+                    <xsl:value-of select="@Location"/>
                   </td>
                   <td>
-                  <xsl:value-of select="@area"/>
-                  </td>
-                  <td>
-                   <xsl:value-of select="@waterVolume"/>
+                  <xsl:value-of select="@NearestCity"/>
                   </td>
                     <td>
-                   <xsl:value-of select="$wallHeight"/>
+                   <xsl:value-of select="@Source"/>
                   </td>
                     <td>
-                   <xsl:value-of select="$wallLeigth"/>
+                   <xsl:value-of select="@Lenght"/>
                   </td>
+                    <td>
+                   <xsl:value-of select="@Depth"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Width"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@SeaLevel"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@Area"/>
+                  </td>
+                    <td>
+                   <xsl:value-of select="@YearBuildStarted"/>
+                  </td>
+                     <td>
+                   <xsl:value-of select="@YearBuildFinished"/>
+                  </td>
+                     <td>
+                   <xsl:value-of select="@WaterVolume"/>
+                  </td>
+                    
                 </tr>
               </xsl:for-each>
             </tbody> 
