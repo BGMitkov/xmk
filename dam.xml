@@ -1,35 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="XSLTFile.xslt"?>
 
-<DamCatalog xmlns="http://www.w3schools.com/dam"
-						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-						xsi:schemaLocation="http://www.w3schools.com/dam dam.xsd">
-    <Dams>
-			<Dam DamId="1" Name="Александър Стамболийски" Location="Област Габрово" NearestCity="Сухиндол" Source="Росица" Lenght="18" Area="11,4" YearBuildStarted="1940" YearBuildFinished="1954" WaterVolume="205 500 000" >
-				<Wall Height="66" Length="300" GroundBase="" />
-			</Dam>
-			<Dam DamId="2" Name="Batak" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1107" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="310" >
-				<Wall Height="35" Length="237" GroundBase="" />
-			</Dam>
-			<Dam DamId="3" Name="Belmeken" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1923" Area="4.5" YearBuildStarted="" YearBuildFinished="" WaterVolume="144" >
-				<Wall Height="24" Length="210" GroundBase="" />
-			</Dam>
-			<Dam DamId="4" Name="Vucha" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="540" Area="4.9" YearBuildStarted="" YearBuildFinished="" WaterVolume="226" >
-				<Wall Height="144" Length="420" GroundBase="" />
-			</Dam>
-			<Dam DamId="5" Name="Golqm Beglik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1528" Area="4.1" YearBuildStarted="" YearBuildFinished="" WaterVolume="62" >
-				<Wall Height="46.5" Length="191" GroundBase="" />
-			</Dam>
-			<Dam DamId="6" Name="Gorni Dubnik" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="168" Area="11" YearBuildStarted="" YearBuildFinished="" WaterVolume="135" >
-				<Wall Height="35" Length="180" GroundBase="" />
-			</Dam>
-			<Dam DamId="7" Name="Dospat" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="1200" Area="22" YearBuildStarted="" YearBuildFinished="" WaterVolume="449" >
-				<Wall Height="60.5" Length="230" GroundBase="" />
-			</Dam>
-			<Dam DamId="8" Name="Jrebchevo" Location=" " NearestCity="" Source="" Lenght="" Depth="" Width="" SeaLevel="269" Area="22.4" YearBuildStarted="" YearBuildFinished="" WaterVolume="400" >
-				<Wall Height="50" Length="60" GroundBase="" />
-			</Dam>
+<DamCatalog xmlns="http://www.w3schools.com/dam" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com/dam dam.xsd">
+	<Dams>
+		<Dam damId="1" name="Александър Стамболийски" location="Област Габрово"
+			nearestCity="Сухиндол" source="Росица" length="1400" depth="42" width="654" seaLevel="190" area="11.4"
+			yearBuildStarted="1940" yearBuildFinished="1954" waterVolume="205">
+			<Wall height="66" length="300" groundBase="" />
+			<FaunaIds>
+				<faunaId>1</faunaId>
+				<faunaId>2</faunaId>
+				<faunaId>3</faunaId>
+				<faunaId>4</faunaId>
+				<faunaId>5</faunaId>
+				<faunaId>6</faunaId>
+				<faunaId>7</faunaId>
+				<faunaId>8</faunaId>
+				<faunaId>9</faunaId>
+				<faunaId>10</faunaId>
+				<faunaId>11</faunaId>
+				<faunaId>12</faunaId>
+				<faunaId>13</faunaId>
+				<faunaId>14</faunaId>
+				<faunaId>15</faunaId>
+				<faunaId>16</faunaId>
+				<faunaId>17</faunaId>
+			</FaunaIds>
+		</Dam>
+		<Dam damId="2" name="Батак" location="Област Пазарджик" nearestCity="Пазарджик" source="река Мътница"
+			length="2145" depth="74" width="742" seaLevel="1107" area="22"
+			yearBuildStarted="1952" yearBuildFinished="1959" waterVolume="310">
+			<Wall height="35" length="237" groundBase="" />
+		</Dam>
+		<Dam damId="3" name="Белмекен" location="Област Пазарджик" nearestCity="Пазарджик" source="Крива река"
+			length="805" depth="64" width="452" seaLevel="1923" area="4.5"
+			yearBuildStarted="1962" yearBuildFinished="1968" waterVolume="144">
+			<Wall height="24" length="210" groundBase="" />
+		</Dam>
+		<Dam damId="4" name="Vucha" location="Област Пазарджик" nearestCity="Пазарджик" source="река Въча"
+			length="985" depth="47" width="514" seaLevel="540" area="4.9"
+			yearBuildStarted="1970" yearBuildFinished="1975" waterVolume="226">
+			<Wall height="144" length="420" groundBase="" />
+			<FaunaIds>
+				<faunaId>3</faunaId>
+				<faunaId>18</faunaId>
+				<faunaId>4</faunaId>
+				<faunaId>1</faunaId>
+				<faunaId>5</faunaId>
+				<faunaId>19</faunaId>
+				<faunaId>6</faunaId>
+				<faunaId>10</faunaId>
+				<faunaId>12</faunaId>
+				<faunaId>13</faunaId>
+				<faunaId>11</faunaId>
+				<faunaId>15</faunaId>
+				<faunaId>14</faunaId>
+				<faunaId>17</faunaId>
+			</FaunaIds>
+		</Dam>
+		<Dam damId="5" name="Golqm Beglik" location="Област Пазарджик" nearestCity="Пазарджик"
+			source="река Крива" length="798" depth="35" width="478" seaLevel="1528" area="4.1"
+			yearBuildStarted="1949" yearBuildFinished="1951" waterVolume="62">
+			<Wall height="46.5" length="191" groundBase="" />
+		</Dam>
+		<Dam damId="6" name="Gorni Dubnik" location="Област Плевен" nearestCity="Плевен"
+			source="unknown" length="2420" depth="54" width="1254" seaLevel="168" area="11"
+			yearBuildStarted="1960" yearBuildFinished="1963" waterVolume="135">
+			<Wall height="35" length="180" groundBase="" />
+		</Dam>
+		<Dam damId="7" name="Dospat" location="Област Смолян" nearestCity="Смолян" source="река Доспат"
+			length="3652" depth="65" width="1478" seaLevel="1200" area="22"
+			yearBuildStarted="1965" yearBuildFinished="1969" waterVolume="449">
+			<Wall height="60.5" length="230" groundBase="" />
+		</Dam>
+		<Dam damId="8" name="Jrebchevo" location="Област Стара Загора" nearestCity="Стара Загора"
+			source="Тунджа" length="2658" depth="98" width="1354" seaLevel="269" area="22.4"
+			yearBuildStarted="1960" yearBuildFinished="1966" waterVolume="400">
+			<Wall height="50" length="60" groundBase="" />
+		</Dam>
+		<Dam damId="9" name="Ivailovgrad" location="Област Кърджали" nearestCity="Ивайловград"
+			source="Арда" length="1854" depth="71" width="1241" seaLevel="120" area="15"
+			yearBuildStarted="1957" yearBuildFinished="1964" waterVolume="188" >
+			<Wall height="71" length="250" groundBase=""/>
+			<FaunaIds>
+				<faunaId>12</faunaId>
+				<faunaId>15</faunaId>
+				<faunaId>4</faunaId>
+				<faunaId>6</faunaId>
+				<faunaId>19</faunaId>
+				<faunaId>14</faunaId>
+				<faunaId>13</faunaId>
+			</FaunaIds>
+		</Dam>
+		<Dam damId="10" name="Iskar" location="Област София" nearestCity="София" source="Искър"
+			length="4521" depth="140" width="2654" seaLevel="817" area="30"
+			yearBuildStarted="1950" yearBuildFinished="1954" waterVolume="673" >
+			<Wall height="76" length="204" groundBase=""/>
+			<FaunaIds>
+				<faunaId>12</faunaId>
+				<faunaId>17</faunaId>
+				<faunaId>20</faunaId>
+				<faunaId>15</faunaId>
+				<faunaId>6</faunaId>
+			</FaunaIds>
+		</Dam>
+		<Dam damId="11" name="Jovkovtsi" location="Област Велико Търново" nearestCity="Елена"
+			source="Веселина" length="4125" depth="79" width="3214" seaLevel="365" area="25.6"
+			yearBuildStarted="1968" yearBuildFinished="1981" waterVolume="92" >
+			<Wall height="66" length="256" groundBase=""/>
+		</Dam>
+		<Dam damId="12" name="Kamchia" location="Област Бургас" nearestCity="Бургас" source="Луда Камчия"
+			length="1874" depth="55" width="723" seaLevel="260" area="9.6"
+			yearBuildStarted="1966" yearBuildFinished="1973" waterVolume="233" >
+			<Wall height="25" length="165" groundBase=""/>
+		</Dam>
+		<Dam damId="13" name="Koprinka" location="Област Стара Загора" nearestCity="Стара Загора"
+			source="Тунджа" length="2634" depth="47" width="1078" seaLevel="400" area="11.2"
+			yearBuildStarted="1951" yearBuildFinished="1955" waterVolume="140" >
+			<Wall height="44" length="315" groundBase=""/>
+		</Dam>
+		<Dam damId="14" name="Kurdjali" location="Област Кърджали" nearestCity="Кърджали"
+			source="Арда" length="1954" depth="84" width="1420" seaLevel="331" area="16"
+			yearBuildStarted="1957" yearBuildFinished="1963" waterVolume="539" >
+			<Wall height="103.5" length="403" groundBase=""/>
+		</Dam>
+		<Dam damId="15" name="Ovcharitsa" location="Област Стара Загора" nearestCity="Стара Загора"
+			source="unknown" length="1584" depth="68" width="896" seaLevel="140" area="6.3"
+			yearBuildStarted="1971" yearBuildFinished="1977" waterVolume="45" >
+			<Wall height="22" length="1480" groundBase=""/>
+		</Dam>
+		<Dam damId="16" name="Ogosta" location="Област Монтана" nearestCity="Монтана" source="Огоста"
+			length="3647" depth="93" width="2142" seaLevel="186" area="23.6"
+			yearBuildStarted="1958" yearBuildFinished="1986" waterVolume="506" >
+			<Wall height="42" length="1000" groundBase=""/>
+		</Dam>
+		<Dam damId="17" name="Piasachnik" location="Област Пловдив" nearestCity="Пловдив"
+			source="unknown" length="1875" depth="46" width="956" seaLevel="290" area="9.1"
+			yearBuildStarted="1978" yearBuildFinished="1985" waterVolume="103" >
+			<Wall height="37" length="271" groundBase=""/>
+		</Dam>
+		<Dam damId="18" name="Studen kladenets" location="Област Кърджали" nearestCity="Кърджали"
+			source="Арда" length="4587" depth="87" width="1756" seaLevel="227" area="27.8"
+			yearBuildStarted="1954" yearBuildFinished="1957" waterVolume="489" >
+			<Wall height="67.5" length="338" groundBase=""/>
+		</Dam>
+		<Dam damId="19" name="Ticha" location="Област Шумен" nearestCity="Велики Преслав" source="Голяма Камчия"
+			length="3658" depth="79" width="1874" seaLevel="185" area="18.7"
+			yearBuildStarted="1967" yearBuildFinished="1973" waterVolume="311" >
+			<Wall height="55.5" length="635" groundBase=""/>
+		</Dam>
+		<Dam damId="20" name="Topolnitsa" location="Област Пазарджик" nearestCity="Панагюрище"
+			source="Тополница" length="1752" depth="38" width="654" seaLevel="370" area="5.7"
+			yearBuildStarted="1955" yearBuildFinished="1963" waterVolume="137" >
+			<Wall height="78" length="232" groundBase=""/>
+		</Dam>
+		<Dam damId="21" name="Trakiets" location="Област Хасково" nearestCity="Хасково"
+			source="Харманлийска река" length="2145" depth="61" width="872" seaLevel="250" area="8.2"
+			yearBuildStarted="1959" yearBuildFinished="1965" waterVolume="114" >
+			<Wall height="67" length="321" groundBase=""/>
+		</Dam>
+		<Dam damId="22" name="Tsenkov kamak" location="Област Смолян" nearestCity="Смолян"
+			source="Въча" length="1845" depth="52" width="985" seaLevel="668" area="3.4"
+			yearBuildStarted="1985" yearBuildFinished="2010" waterVolume="111" >
+			<Wall height="130.5" length="468" groundBase=""/>
+		</Dam>
+		<Dam damId="23" name="Tsonevo" location="Област Варна" nearestCity="Варна" source="Луда Камчия"
+			length="5985" depth="92" width="2654" seaLevel="185" area="23.9"
+			yearBuildStarted="1964" yearBuildFinished="1974" waterVolume="330" >
+			<Wall height="39" length="890" groundBase=""/>
+		</Dam>
+		<Dam damId="24" name="Shiroka poliana" location="Област Пазарджик" nearestCity="Доспат"
+			source="Керелова" length="2614" depth="73" width="1587" seaLevel="1500" area="4"
+			yearBuildStarted="1960" yearBuildFinished="1963" waterVolume="24" >
+			<Wall height="35" length="139" groundBase=""/>
+		</Dam>
 	</Dams>
+	
+	<Fauna>
+		<Fauna name="Бабушка" faunaId="1"/>
+		<Fauna name="Бибан" faunaId="2"/>
+		<Fauna name="Бял амур" faunaId="3"/>
+		<Fauna name="Бяла риба" faunaId="4"/>
+		<Fauna name="Каракуда" faunaId="5"/>
+		<Fauna name="Костур" faunaId="6"/>
+		<Fauna name="Кротушка" faunaId="7"/>
+		<Fauna name="Морунаш" faunaId="8"/>
+		<Fauna name="Распер" faunaId="9"/>
+		<Fauna name="Скобар" faunaId="10"/>
+		<Fauna name="Слънчева риба" faunaId="11"/>
+		<Fauna name="Сом" faunaId="12"/>
+		<Fauna name="Уклей" faunaId="13"/>
+		<Fauna name="Червеноперка" faunaId="14"/>
+		<Fauna name="Шаран" faunaId="15"/>
+		<Fauna name="Щипок" faunaId="16"/>
+		<Fauna name="Щука" faunaId="17"/>
+		<Fauna name="Платика" faunaId="18"/>
+		<Fauna name="Кефал" faunaId="19"/>
+		<Fauna name="Пъстърва" faunaId="20"/>
+	</Fauna>
+
 </DamCatalog>
 
 
